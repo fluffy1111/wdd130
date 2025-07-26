@@ -9,8 +9,38 @@
 }
 
 header {
+    /*I'm trying to make the header grid horizontil.*/
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: space-evenly;
     background-color: var(--primary-color);
     color: var(--accent2-color)
+}
+
+nav {
+    /*I'm trying to get the links to have spaces between them.*/
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+}
+    /*Fixing the layout*/
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+    /* Trying to make this horizontal*/
+.sec{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section img {
+    height: auto;
+    width: 15em;
 }
 
 * {
@@ -34,13 +64,25 @@ h1, h2 {
     color: var(--primary-color);
 }
 
-nav, p, section, article {
+nav, p, section, article, .sec {
     margin: 16px;
     padding: 8px;
 }
 
+.socialmedia {
+    display: flex;
+    justify-content: center;
+}
+
 .socialmedia a {
     text-decoration: none;
+}
+    /*fixing sizing isuse*/
+.socialmedia img {
+    height: 5em;
+    width: auto;
+    margin: 5px;
+    padding: 2px;
 }
 
 .hero {
