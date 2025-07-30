@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+    <!--lang = languege-->
+<html lang="en-US">
+    <head>
+        <!--meta defines the metadata about this html doc-->
+        <!--charset is character_set specific the character encoding for this HTML doc-->
+        <meta charset="utf-8">
+        <!--name name of the meta data-->
+        <!--content spesifice the value associated with the name attribute-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--The title of the doc-->
+        <title>WDD130 | HTML Form - User Poll</title>
+    </head>
+    <body>
+        <header>
+            <!--h1-h6 are text headings-->
+            <h1>WDD130 | Maxwell | HTML Form - User Poll</h1>
+        </header>
+        <main>
+            <!--A form for user imput-->
+            <form>
+                <!--Draws a box around the related elements-->
+                <fieldset>
+                    <!--Defines a caption-->
+                    <legend>Contact Information</legend>
+                    <!--defines a label for vareuse elements-->
+                    <label for="fullname">fullname:</label>
+                    <!--enables the user the input stuff-->
+                    <input type="text" id="fullname" name="fullname">
+                    <label for="useremail">Email:</label>
+                    <input type="email" id="useremail" name="useremail">
+                </fieldset>
+                <fieldset>
+                    <legend>Questions</legend>
+                    <label for="browser">What is your favorite internet browser?</label>
+                    <!--contanse a drop down list-->
+                    <select id="browser" name="browser">
+                        <!--definse options in a list-->
+                        <option value="chrome">Chrome</option>
+                        <option value="firefox">firefox</option>
+                        <option value="safari">safari</option>
+                        <option value="edge">Edge</option>
+                        <option value="brave">Breve</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" id="pet" name="pet">
+                    <label for="feedback">List the places you have lived:</label>
+                    <!--definse multiple lines of text input control-->
+                    <textarea id="feedback" name="feedback" rows="4" placeholder="Insert location 1, Insert location 2"></textarea>
+                    <!-- a thing for the users to press and do somthing-->
+                    <button type="submit">Sumit Poll</button>
+                </fieldset>
+            </form>
+        </main>
+        <footer>
+            <!--paragraph tag-->
+            <p>2025 | HTML Form - User Poll Activity | Maxwell</p>
+        </footer>
+    </body>
+</html>
