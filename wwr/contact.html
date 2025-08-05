@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+            <!--getting the fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" 
+        rel="stylesheet">
+            <!--connecting to css-->
+        <link rel="stylesheet" href="styles/rafting.css">
+    </head>
+    <body>
+        <header>
+                <!--the logo-->
+            <img src="images/logo.jpg" alt="Rafting Company Logo">
+            <nav>
+                    <!--setting up the links for our navigation bar-->
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="trips.html">Trips</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+        </header>
+        <main>
+            <div class="hero">
+                <img src="images/hero_transparency_1024.png" alt="Our background of a river">
+                <h1>Splush Rivers, Contact Us</h1>
+            </div>
+            <div class="contact">
+                    <!--contact info-->
+                <h2>Contact Splush Rivers with</h2>
+                <br>
+                <a href="#">Insertphone number</a>
+                <a href="#">Insert email</a>
+                <h2>Find Splush Rivers here</h2>
+                <br>
+                <a href="#">Insert address</a>
+                    <!--imbed location on google maps-->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14936.336618526724!2d-85.71748110807879!3d35.89835033832931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1754333570174!5m2!1sen!2sus" 
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <!--Three happy employee profile pics with captions-->
+            <h2>Our happy employee</h2>
+            <div>
+                <figure>
+                    <img src="" alt="">
+                    <figcaption>employee 1</figcaption>
+                </figure>
+                <figure>
+                    <img src="" alt="">
+                    <figcaption>employee 2</figcaption>
+                </figure>
+                <figure>
+                    <img src="" alt="">
+                    <figcaption>employee 3</figcaption>
+                </figure>
+            </div>
+            <!--HTML form asking-->
+                <!--user's name and email-->
+            <h2>Pirsonel Information</h2>
+            <div class="pii">
+                <form>
+                    <label for="name">Your name:
+                        <input type="text" id="name" name="name">
+                    </label><br>
+                    <label for="email">Your email:
+                        <input type="text" id="email" name="email">
+                    </label>
+                </form>
+            </div>
+            <!--then let them pick from a list-->
+                <!--General inquiry, Reservation Questions, Website Suggestion-->
+            <h2>Questions</h2>
+            <div class="ques">
+                <form>
+                    <label for="gen-in">
+                        <input type="radio" id="gen-in" name="gen-in">
+                    </label>General inquiry<br>
+                    <label for="res-ques">
+                        <input type="radio" id="res-ques" name="res-ques">
+                    </label>Reservation Questions<br>
+                    <label for="web-sugg">
+                        <input type="radio" id="web-sugg" name="web-sugg">
+                    </label>Website Suggestion<br>
+                    <h2>Messege</h2>
+                    <label for="mess">
+                        <textarea id="mess" name="mess" row="10" cols="100">
+                        </textarea>
+                    </label><br>
+            <!--ferther more a checkbox asking to sub to our newsletter-->
+                    <h2>Our Newsletter</h2>
+                    <label for="nl">
+                        <input type="radio" id="nl" name="nl">
+                    </label>Sign up for our newsletter?<br>
+                <!--with a slylish button-->
+                    <label for="end">
+                        <input type="submit" value="Submit">
+                    </label>
+                </form>
+            </div>
+        </main>
+        <footer>
+                <!--a hipotheticle social media-->
+            <nav class="socialmedia">
+                <a href="https://facebook.com">
+                    <img src="images/facebook.png" alt="Facebook">
+                </a>
+                <a href="https://twitter.com">
+                    <img src="images/twitter.png" alt="Twitter">
+                </a>
+                <a href="https://instagram.com">
+                    <img src="images/instagram.png" alt="Instagram">
+                </a>
+            </nav>
+        </footer>
+    </body>
+</html>

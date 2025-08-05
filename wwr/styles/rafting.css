@@ -110,3 +110,9 @@ h1 {
     float: right;
     width: 125px;
 }
+
+.contact {
+    display: grid;
+    grid-template-rows: repeat(8, 0.1fr);
+    row-gap: 10px;
+}
