@@ -116,3 +116,24 @@ h1 {
     grid-template-rows: repeat(8, 0.1fr);
     row-gap: 10px;
 }
+
+.tgrid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+
+}
+
+.tgrid img{
+    height: auto;
+    width: 300px;
+}
+
+.igrid{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+.igrid img{
+    height: auto;
+    width: 300px;
+}
