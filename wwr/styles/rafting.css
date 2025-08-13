@@ -137,3 +137,13 @@ h1 {
     height: auto;
     width: 300px;
 }
+
+.emp{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+.emp img{
+    height: auto;
+    width: 200px;
+}
