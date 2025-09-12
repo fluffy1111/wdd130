@@ -16,6 +16,10 @@ main {
 main img {
   width: 200px;
   height: auto;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 1px;
+  background-color: #eee;
+  color: #333;
   box-shadow: 10px 0 30px;
 }
 
