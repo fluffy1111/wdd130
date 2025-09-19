@@ -1,16 +1,28 @@
+:root{
+  --primary-background-color: rgb(252, 222, 227);
+  --secondery-background-color: darkgreen;
+  --primary-text-color: purple;
+  --secondery-text-color: gold;
+}
+
 h1 {
-  color: darkgreen;
+  background-color: var(--primary-background-color);
+  color: var(--secondery-background-color);
   padding: 16px;
   text-align: center;
 }
 
+body {
+  background-color: var(--primary-background-color);
+}
+
 nav {
-  background-color: green;
+  background-color: var(--secondery-background-color);
   padding: 10px;
 }
 
 nav a {
-  color: white;
+  color: var(--primary-background-color);
   display: block;
   padding: 20px;
 }
