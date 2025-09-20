@@ -5,6 +5,12 @@
   --secondery-text-color: gold;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 h1 {
   background-color: var(--primary-background-color);
   color: var(--secondery-background-color);
@@ -31,6 +37,10 @@ main {
   max-width: 840px;
 }
 
+main img {
+  float: right;
+}
+
 img {
   width: 200px;
   height: auto;
@@ -55,9 +65,23 @@ aside {
   text-align: center;
 }
 
+aside h2 {
+  position: absolute;
+  top: 47px;
+  left: 150;
+}
+
 aside img {
   width: 200px;
   height: auto;
+}
+
+.box {
+  margin: 1rem;
+  border: 1px solid rgb(0 0 0 / 10%);
+  padding: 1rem;
+  background-color: #ddd;
+  color: #000;
 }
 
 footer {
