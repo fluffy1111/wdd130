@@ -38,6 +38,7 @@ main {
 }
 
 main img {
+  position: relative;
   float: right;
 }
 
@@ -56,24 +57,26 @@ p {
 }
 
 aside {
-  width: 20em;
-  margin: 1em;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  padding: 1em;
-  background-color: #eee;
-  color: #333;
+  width: 300px;
   text-align: center;
+  position: relative;
 }
 
 aside h2 {
   position: absolute;
-  top: 47px;
-  left: 150;
+  top: 0px;
+  left: 75px;
 }
 
 aside img {
   width: 200px;
   height: auto;
+}
+
+footer {
+  margin-top: 15px;
+  border-top: 1px solid #000;
+  text-align: center;
 }
 
 .box {
@@ -82,10 +85,4 @@ aside img {
   padding: 1rem;
   background-color: #ddd;
   color: #000;
-}
-
-footer {
-  margin-top: 15px;
-  border-top: 1px solid #000;
-  text-align: center;
 }
