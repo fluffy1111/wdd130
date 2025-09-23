@@ -3,8 +3,6 @@
   --secondery-color: #f4a261;
   --accent1-color: #264653;
   --accent2-color: #e9c46a;
-  --heading-font: "Times New Roman", "Georgia", serif;
-  --body-font: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -19,7 +17,6 @@ header {
 }
 
 body {
-  font-family: var(--body-font);
   color: var(--accent1-color);
 }
 
@@ -29,7 +26,6 @@ header, main, footer {
 }
 
 h1, h2 {
-  font-family: var(--heading-font);
   color:  var(--primary-color);
 }
 
