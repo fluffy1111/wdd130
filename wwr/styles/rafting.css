@@ -5,15 +5,24 @@
   --accent2-color: #e9c46a;
 }
 
-header {
-  background-color: var(--primary-color);
-  color: var(--accent2-color);
-}
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+header {
+  background-color: var(--primary-color);
+  color: var(--accent2-color);
+  display: grid;
+  grid-template-columns: 1fr , 3fr;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: start;
 }
 
 body {
