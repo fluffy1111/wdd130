@@ -73,8 +73,19 @@ h1 {
   width: 125px;
 }
 
+.section img {
+  width: 150px;
+  height: auto;
+}
+
 footer {
   margin-top: 15px;
   border-top: 1px solid #000;
   text-align: center;
+}
+
+footer img {
+  width: 50px;
+  height: auto;
+  box-shadow: 10px 0 30px gray;
 }
