@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Poll Form || Maxwell R Campbell</title>
+  <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+
+<body>
+  <header>
+    <h1>WDD 130 | Maxwell R Campbell | HTML Form - User Poll</h1>
+  </header>
+  <main>
+    <form>
+      <fieldset>
+        <legend>Contact info</legend>
+        <div class="form-item colum2">
+          <label>Full Name: <input type="text" name="fullname"></label>
+        </div>
+        <div class="form-item colum2">
+          <label>Email: <input type="email" name="useremail"></label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Questions</legend>
+        <div class="form-item colum1">
+          <label for="browser">What is your favorite internet browser? </label>
+          <select id="browser" name="browser">
+            <option value="chrome">Chrome</option>
+            <option value="firefox">Firefox</option>
+            <option value="safari">Safari</option>
+            <option value="edge">Edge</option>
+            <option value="brave">Brave</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form-item colum1">
+          <label>Do you have a household pet?
+            <input type="checkbox" name="pet">
+          </label>
+        </div>
+        <label>List the places you have lived:
+          <textarea name="feedback" rows="4"
+            placeholder="lists, list, lists, list, lists, list, lists, list"></textarea>
+        </label>
+      </fieldset>
+      <fieldset>
+        <button type="submit">Submit Poll</button>
+      </fieldset>
+    </form>
+  </main>
+  <footer>
+    <p>&copy; WDD 130 | Maxwell.R.Campbell | Poll-Form &copy;</p>
+  </footer>
+</body>
+
+</html>
