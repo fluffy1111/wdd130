@@ -34,6 +34,11 @@ header, main, footer {
   margin: 0 auto;
 }
 
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 h1, h2 {
   color:  var(--primary-color);
 }
@@ -49,12 +54,38 @@ nav, p, section, article {
 
 .hero {
   position: relative;
+  grid-column: 1/3;
 }
 
 .hero img {
   display: block;
   width: 100%;
   height: auto;
+}
+
+.contact-info {
+  grid-column: 1/3;
+  text-align: center;
+}
+
+.questions {
+  display: flex;
+  flex-direction: column;
+}
+
+.employee {
+  grid-column: 1/2;
+  display: flex;
+}
+
+.employee h2 {
+  text-align: center;
+}
+
+.employee img {
+  width: 125px;
+  height: auto;
+  justify-content: space-between;
 }
 
 h1 {
